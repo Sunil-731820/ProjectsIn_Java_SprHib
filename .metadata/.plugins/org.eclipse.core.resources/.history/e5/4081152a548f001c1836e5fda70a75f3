@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	emp={
+			id:102,
+			name:"Shyam Kumar",
+			salary:40000
+		}  
+	document.write(emp.id+" "+emp.name+" "+emp.salary); 
+
+
+</script>
+
+</body>
+</html>

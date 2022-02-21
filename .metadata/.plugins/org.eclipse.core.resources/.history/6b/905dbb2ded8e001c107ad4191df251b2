@@ -1,0 +1,6 @@
+/**
+ * 
+ */
+ function msg(){
+	alert("hello this is the external files okay ");
+}

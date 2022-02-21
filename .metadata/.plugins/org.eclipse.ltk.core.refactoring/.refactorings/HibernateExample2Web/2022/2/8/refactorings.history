@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SessionHelper.java&apos; to &apos;HMSHibernateProject/src/main/java/com.java.hib&apos;&#x0D;&#x0A;- Original project: &apos;HibernateExample2Web&apos;&#x0D;&#x0A;- Destination element: &apos;HMSHibernateProject/src/main/java/com.java.hib&apos;&#x0D;&#x0A;- Original element: &apos;com.java.hib.SessionHelper.java&apos;" description="Copy compilation unit" destination="=HMSHibernateProject/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.hib" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.hib{SessionHelper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1644812334119" units="1" version="1.0"/>
+</session>

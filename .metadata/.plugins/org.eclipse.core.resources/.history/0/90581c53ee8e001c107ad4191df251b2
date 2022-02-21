@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+var data = 10;
+function a1() {
+	document.writeln("data from a1 is " + data);
+}
+
+function b1() {
+	document.writeln("data from b1 is "+ data);
+}
+a1();
+b1();
+
+</script>
+
+</body>
+</html>

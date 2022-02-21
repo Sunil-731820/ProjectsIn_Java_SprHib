@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+var grade = "a";
+switch (grade) {
+	case "A":
+	document.write("This is grade A")
+	break;
+	case "B":
+	document.write("This is grade B");
+	break;
+
+default:
+	document.write("Invalid choice here ")
+	break;
+}
+
+</script>
+</body>
+</html>

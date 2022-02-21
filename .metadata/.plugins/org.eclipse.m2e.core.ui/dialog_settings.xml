@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\UserRegistrationFormSpringBootProject\pom.xml"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\StudentManagSys"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\WebClientMenuProject\src\main\webapp\CustomerDashBoard.jsp"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\HibernateExample2Web\src\main\webapp\EmployTable.jsp"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\HotelManagmentBoot\src\main\java\com\java\demo\RoomDAO.java"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\HotelManagmentBoot\src\main\java\com\java\demo\Room.java"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\HarishRegForm\src\main\java\com\java\hib\RegistrationDAO.java"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\CollegeHibProjects\src\main\resources\hibernate.cfg.xml"/>
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\hibernateExample1\src\main\java\com\java\hib\EmployUpdate.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.java.js"/>
+			<item value="com.java.client"/>
+		</list>
+		<list key="groupId">
+			<item value="infinite"/>
+		</list>
+		<list key="artifactId">
+			<item value="JavaScriptPracticePart"/>
+			<item value="StudentManagSysClient"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="co.ntier"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="spring-mvc-archetype"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.0.2"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:p="http://primefaces.org/ui"  
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+      
+<h:body>  
+			<center>
+               <h2 id="hi"><h:outputText value="Customer Records"/></h2>
+            </center>
+<h:form>
+<p:accordionPanel>  
+  
+	<h:panelGrid >  
+		<p:tab>
+			<h:outputText title="hello "></h:outputText>
+				<p:dataTable id="table" var="row" value="#{customer.showCustomer()}">
+					<p:column headerText="Code">
+						<h:outputText value="#{row.cusId}"></h:outputText>			
+					</p:column>
+				
+					<p:column headerText="Code">
+						<h:outputText value="#{row.cusname}"></h:outputText>			
+					</p:column>
+					
+					<p:column headerText="Code">
+						<h:outputText value="#{row.phoneNum}"></h:outputText>			
+					</p:column>
+					
+					<p:column headerText="Code">
+						<h:outputText value="#{row.userName}"></h:outputText>			
+					</p:column>
+					
+					<p:column headerText="Code">
+						<h:outputText value="#{row.passWord}"></h:outputText>			
+					</p:column>
+					
+					<p:column headerText="Code">
+						<h:outputText value="#{row.email}"></h:outputText>			
+					</p:column>
+				</p:dataTable>
+			
+		
+		</p:tab>
+	</h:panelGrid>  
+
+
+</p:accordionPanel>  
+	
+	</h:form>
+	</h:body>
+
+      
+</html>

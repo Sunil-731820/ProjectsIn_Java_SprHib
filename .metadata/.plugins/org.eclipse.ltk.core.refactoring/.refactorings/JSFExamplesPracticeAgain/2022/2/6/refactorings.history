@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;JSFExamplesPracticeAgain&apos;&#x0D;&#x0A;- Original project: &apos;JSFExamplesPracticeAgain&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     java&#x0D;&#x0A;     faces-config.xml&#x0D;&#x0A;     web.xml" description="Delete elements" element1="src/main/java" element2="src/main/webapp/faces-config.xml" element3="src/main/webapp/web.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1643876571329" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package com.java.spr;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+@Transactional
+public class StudentService {
+	
+	@Autowired
+	private StudentRepository repo;
+	
+
+	
+	public List<Student> showStudent(){
+		return repo.findAll();
+	}
+	
+
+}
