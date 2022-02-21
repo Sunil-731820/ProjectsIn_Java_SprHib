@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:annotation-config></context:annotation-config>  
+
+<bean id="BeanDinesh" class="com.java.spr.Person">
+	<property name="id" value="1"></property>
+	<property name="name" value="Dinesh"></property>
+	<property name="familyDetails">
+		<bean class="com.java.spr.Family">
+			<property name="city" value="Lucknow"></property>
+			<property name="state" value="uttarPradesh"></property>
+		</bean>
+	</property>
+</bean> 
+
+<bean id="Beanharish" class="com.java.spr.Person">
+	<property name="id" value="2"></property>
+	<property name="name" value="Harish Kumar"></property>
+	<property name="familyDetails">
+		<bean class="com.java.spr.Family">
+			<property name="city" value="Bangalore"></property>
+			<property name="state" value="Karnataka"></property>
+		</bean>
+	</property>
+</bean>
+
+
+
+<bean id="jobDetails" class="com.java.spr.JobDetails">
+	<property name="job" value="SoftWare Engineer"></property>
+	<property name="company" value="Infinite"></property>
+	<property name="location" value="Bangalore"></property>
+</bean>
+
+</beans>
+   
+   
+   
+   
+   

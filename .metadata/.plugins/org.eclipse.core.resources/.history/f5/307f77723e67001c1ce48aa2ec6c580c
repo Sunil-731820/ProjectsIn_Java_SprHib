@@ -1,0 +1,40 @@
+package infinite.RealTimeLeaveMangement;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class LeaveDetailsDAO {
+	Connection  connection;
+	PreparedStatement pst;
+	
+	public String approveDeny(int leaveId,int mgrId,String managerComments,String status) {
+		LeaveDeatails Id = searchByLeaveId(leaveId);
+		connection = ConnectionHelper.getConnection();
+		Employee emp = new EmployeeDAO()e
+	}
+	
+	
+	public LeaveDeatails searchByLeaveId(int leaveId) throws ClassNotFoundException, SQLException {
+		connection = ConnectionHelper.getConnection();
+		String cmd = "select *from Leave_history where LEAVE_ID=?";
+		pst = connection.prepareStatement(cmd);
+		pst.setInt(1, leaveId);
+		ResultSet res = pst.executeQuery();
+		LeaveDeatails leaveDetails = null;
+		if(res.next()) {
+			leaveDetails = new LeaveDeatails();
+			leaveDetails.setLeaveId(res.getInt("LEAVE_ID"));
+			leaveDetails.setEmpId(res.getInt("EMP_ID"));
+			leaveDetails.setNoOfDays(res.getInt("LEAVE_NO_OF_DAYS"));
+			leaveDetails.setLeaveStartDate(res.getDate("LEAVE_START_DATE"));
+			leaveDetails.setLeaveEndDate(res.getDate("LEAVE_END_DATE"));
+			leaveDetails.setLeaveType(LeaveType.valueOf(res.getString("LEAVE_TYPE")));
+			leaveDetails.setLeaveStatus(LeaveStatus.valueOf(res.getString("LEAVE_STATUS")));
+			leaveDetails.setLeaveReason(res.getString("LEAVE_REASON"));
+		}
+		return leaveDetails;
+	}
+	
+}

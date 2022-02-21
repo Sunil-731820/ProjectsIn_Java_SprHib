@@ -1,0 +1,11 @@
+package infinite.RealTimeLeaveManagement;
+
+import java.sql.Connection;
+import java.util.ResourceBundle;
+
+public class ConnectionHelper {
+	public static Connection getconnection() {
+		ResourceBundle rb = ResourceBundle.getBundle("db");
+	}
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+"-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="studentSumanth" class="com.java.spr.Student">
+		<property name="sno" value="1"></property>
+		<property name="firstName" value="Sumanth"></property>
+		<property name="lastName" value="tadla"></property>
+	</bean>
+	
+	<bean id="sudentharish" class="com.java.spr.Student">
+		<property name="sno" value="2"></property>
+		<property name="firstName" value="Harish"></property>
+		<property name="lastName" value="Kumar"></property>
+	</bean>
+	
+	<bean id="studentSunil" class="com.java.spr.Student">
+		<property name="sno" value="3"></property>
+		<property name="firstName" value="Sunil"></property>
+		<property name="lastName" value="Kumar"></property>
+	</bean>
+	<bean id="studentSubham" class="com.java.spr.Student">
+		<property name="sno" value="4"></property>
+		<property name="firstName" value="Subham"></property>
+		<property name="lastName" value="kumar"></property>
+	</bean>
+	<bean id="trainerBean" class="com.java.spr.Trainer">
+		<property name="trainerName" value="Prasanna Sir"></property>
+		<property name="location" value="hyderbad"></property>
+		<property name="studentList">
+			<list>
+				<ref bean="studentSumanth"/>
+				<ref bean="sudentharish"/>
+				<ref bean="studentSunil"/>
+				<ref bean="studentSubham"/>
+			</list>
+		</property>
+	
+	
+	</bean>
+
+</beans>

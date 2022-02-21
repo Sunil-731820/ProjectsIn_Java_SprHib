@@ -1,0 +1,5 @@
+package infinite.RealTimeLeaveManagement;
+
+public class ConnectionHelper {
+
+}

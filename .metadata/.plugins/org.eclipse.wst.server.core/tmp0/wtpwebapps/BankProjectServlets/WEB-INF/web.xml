@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>Jersey Web Application</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>infinite11.BankProjectServlets</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jersey Web Application</servlet-name>
+    <url-pattern>/webapi/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateAccountServlet</display-name>
+    <servlet-name>CreateAccountServlet</servlet-name>
+    <servlet-class>infinite11.BankProjectServlets.CreateAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateAccountServlet</servlet-name>
+    <url-pattern>/CreateAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>closeAccountServlet</display-name>
+    <servlet-name>closeAccountServlet</servlet-name>
+    <servlet-class>infinite11.BankProjectServlets.closeAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>closeAccountServlet</servlet-name>
+    <url-pattern>/closeAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>searchAccountServlet</display-name>
+    <servlet-name>searchAccountServlet</servlet-name>
+    <servlet-class>infinite11.BankProjectServlets.searchAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchAccountServlet</servlet-name>
+    <url-pattern>/searchAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>WithDrawAccountServlet</display-name>
+    <servlet-name>WithDrawAccountServlet</servlet-name>
+    <servlet-class>infinite11.BankProjectServlets.WithDrawAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WithDrawAccountServlet</servlet-name>
+    <url-pattern>/WithDrawAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DepositAccountservlet</display-name>
+    <servlet-name>DepositAccountservlet</servlet-name>
+    <servlet-class>infinite11.BankProjectServlets.DepositAccountservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DepositAccountservlet</servlet-name>
+    <url-pattern>/DepositAccountservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
