@@ -15,17 +15,18 @@ public class StudentService {
 	private StudentRepository repo;
 	
 
-	
+	//function to show records
 	public List<Student> showStudent(){
 		return repo.findAll();
 	}
 	
+	//function for search Records
 	public Student searchStudent(Long id) {
 		return repo.findById(id).get();
 		
 	}
 
-	
+	//function to save records here 
 	public void saveOrUpdate(Student student) {
 		repo.save(student);
 	}
@@ -36,7 +37,7 @@ public class StudentService {
 		repo.deleteById(id);
 	}
 	
- 
+ //this is the function for update the records 
 	
 	public void updateStudent(Student student , Long id) {
 		repo.save(student);

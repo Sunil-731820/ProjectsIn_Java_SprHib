@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+      <head>
+      <style>
+     
+      
+      </style>
+      </head>
+      
+<h:body>
+
+	<h1>Create the New Employ Records Here </h1>
+	<h:form id="hello">
+		Enter Employ Id:
+		<h:inputText value="#{employee2.empId}"></h:inputText><br></br>
+		
+		Enter Employ Last Name:
+		<h:inputText value="#{employee2.firstName}"></h:inputText><br></br>
+		
+		Enter Employ Last Name :
+		<h:inputText value="#{employee2.lastName}"></h:inputText><br></br>
+		
+		Enter Employ Email Id :
+		<h:inputText value="#{employee2.emailId}"></h:inputText><br></br>
+		
+		Enter Employ password :
+		<h:inputText value="#{employee2.password}"></h:inputText><br></br>
+		
+		Enter Employ Address :
+		<h:inputText value="#{employee2.address}"></h:inputText><br></br>
+		
+		Enter Employ pincode :
+		<h:inputText value="#{employee2.pincode}"></h:inputText><br></br>
+				
+		<h:commandButton value="Save" action="#{employee2.saveEmploy(employee2)}" class="btn btn-success" style="width: 160px;"></h:commandButton>
+	</h:form>
+	
+</h:body>      
+      
+      
+      
+</html>
+      
