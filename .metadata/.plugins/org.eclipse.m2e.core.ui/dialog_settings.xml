@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\Employjsf\src\main\java\com\java\jsf\Employ.java"/>
 			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\JavaScriptPracticePart\src\main\webapp\FunctCube.html"/>
 			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\UserRegistrationFormSpringBootProject\pom.xml"/>
 			<item value="C:\Users\sunilg\eclipse-workspace1\DemoProjects2\StudentManagSys"/>
@@ -35,6 +36,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.java.jsf"/>
 			<item value="com.java.hib"/>
 			<item value="com.java.jsp"/>
 			<item value="com.java.js"/>
@@ -44,6 +46,7 @@
 			<item value="infinite"/>
 		</list>
 		<list key="artifactId">
+			<item value="PageNavigationSystem"/>
 			<item value="PersonalBlocSystem"/>
 			<item value="PersonalBlockSystem"/>
 			<item value="PersonalBlockingSystem"/>
