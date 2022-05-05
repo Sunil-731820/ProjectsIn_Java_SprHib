@@ -1,0 +1,14 @@
+127.0.0.1 - - [18/Mar/2022:22:53:18 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:19 +0530] "GET /EmployeeManagementSystem/EmployTable.jsp HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:19 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:21 +0530] "GET /EmployeeManagementSystem/AddEmploy.jsp HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:25 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:25 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:26 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:26 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:27 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:27 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:29 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=Sunil HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:29 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=golu HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:30 +0530] "GET /EmployeeManagementSystem/DeleteEmploy.jsp?firstName=harish HTTP/1.1" 200 1589
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:22:53:31 +0530] "GET /EmployeeManagementSystem/UpdateEmploy.jsp?firstName=harish HTTP/1.1" 500 2294
