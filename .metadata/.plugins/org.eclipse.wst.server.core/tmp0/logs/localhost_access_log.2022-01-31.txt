@@ -1,4 +1,0 @@
-127.0.0.1 - - [31/Jan/2022:19:59:46 +0530] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [31/Jan/2022:19:59:46 +0530] "GET /AlienService/WEB-INF/classes/com/java/rest/AlienDAO.java HTTP/1.1" 404 682
-0:0:0:0:0:0:0:1 - - [31/Jan/2022:20:00:02 +0530] "GET /AlienService/ HTTP/1.1" 200 247
-0:0:0:0:0:0:0:1 - - [31/Jan/2022:20:00:15 +0530] "GET /AlienService/webapi/aliens HTTP/1.1" 200 177

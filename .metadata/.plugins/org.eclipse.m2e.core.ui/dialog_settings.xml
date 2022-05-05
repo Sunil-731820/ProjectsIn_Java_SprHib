@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\StudentMangSystem\src\main\java\com\java\jsp\StudentDAO.java"/>
 			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\JspDashBoradEmployProject\src\main\webapp\EmployTable.jsp"/>
+			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\StudentMangSystem\src\main\java\com\java\jsp\StudentDAO.java"/>
 			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\JSTLDemoBasic\src\main\webapp\Hello.jsp"/>
 			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\SpringMvcEmploy"/>
 			<item value="C:\Users\sunilg\eclipse-workspace\DemoProjects\SpringListmvc4Example\src\main\java\com\spr\mvc\controller\controller\HomeController.java"/>
@@ -46,6 +46,7 @@
 			<item value="infinite"/>
 		</list>
 		<list key="artifactId">
+			<item value="EmployeeManagmentSystem"/>
 			<item value="StudentSystem"/>
 			<item value="StudentMangSystem"/>
 		</list>

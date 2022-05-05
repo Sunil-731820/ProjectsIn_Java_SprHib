@@ -12,7 +12,6 @@
 	<%
 		EmployDAO dao = new EmployDAO();
 	Employ[] arrEmploy = dao.showEmploy();
-	
 	%>
 	<table border="3" align="center">
 	<tr>
